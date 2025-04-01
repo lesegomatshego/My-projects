@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    text-align: center;
+}
+    .Temperature:hover{
+        color: black;
+        border: solid ;
+        background-color: lightyellow;
+        padding: 20px;
+    }
+     .weather-box {
+            display: inline-block;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 200px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        
+        .weather-box:hover {
+            background-color: lightyellow;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        
+        .temperature-value {
+        
+            transition: background-color 0.3s;
+        }
+
+        
+        .temperature-value:hover {
+            background-color: lightyellow;
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    
+
+h1{
+   color : blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{
+     font-size: 24px;
+            font-weight: bold;
+            color: black;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+     margin-top: 20px;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+
+ footer {
+            margin-top: 20px;
+            font-size: 18px;
+            color: black;
+        }
+
+        </style>
+</head>
+<body>
+    <div>⛅</div>
+    <h1> Currently 21° in Tokyo </h1>
+
+      <h2>  13° / 23°  </h2>
+
+    <div class="weather-box tommorow">
+        🌧<strong>Tommorow</strong> 
+        <br>
+        10° / <span class="temperature-value">22°</span>
+    </div>
+    <br>
+
+    <div class="weather-box saturday">
+    🌥 <strong>Saturday</strong>
+        <br>
+        15° / <span class="temperature-value">17°</span>
+    </div>
+<br>
+    <div class="weather-box sunday">
+        ☀️ <strong>Sunday</strong>
+        <br>
+        25° / <span class="temperature-value">28°</span>
+    </div>
+<br>
+    <button>Change city</button>
+
+
+    
+ <footer>Coded by Lesego Matshego</footer> 
+    
+  
+</body>
+</html>
